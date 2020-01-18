@@ -1,0 +1,20 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.navbar {
+   margin-bottom: 30px;
+
+}
+#logo {
+	color: #fff;
+	font-weight: bold;
+	font-size: 1.8em;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+}
+
+#logo:hover {
+	color: #fff;
+	text-decoration: none;
+}
