@@ -45,3 +45,31 @@
 	background-color: #8B008B;
 	font-weight: 600;
 }
+
+footer {
+	margin-top: 45px;
+	padding-top: 5px;
+	border-top: 1px solid #eaeaea;
+	color: #777;
+}
+
+footer a:hover {
+	color: #222;
+	text-decoration: none;
+}
+
+footer small {
+	float: left;
+
+}
+
+footer ul {
+	float: right;
+	list-style: none;
+
+}
+
+footer ul li {
+	float: left;
+	margin-left: 15px;
+}
