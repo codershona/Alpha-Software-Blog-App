@@ -18,3 +18,58 @@
 	color: #fff;
 	text-decoration: none;
 }
+
+.center {
+	text-align: center;
+}
+
+.jumbotron {
+	background-image: asset-url('new_cover_page.png');
+	background-size: cover;
+	height: 550px;
+}
+
+
+.jumbotron h1 {
+	color: #800000;
+	text-align: center;
+	margin-bottom: 30px;
+	letter-space: -1px;
+	font-weight: 1000;
+	font-family: Impact, Charcoal, sans-serif;
+}
+
+.btn-xlarge {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 1.8em;
+	background-color: #8B008B;
+	font-weight: 600;
+}
+
+footer {
+	margin-top: 45px;
+	padding-top: 5px;
+	border-top: 1px solid #eaeaea;
+	color: #777;
+}
+
+footer a:hover {
+	color: #222;
+	text-decoration: none;
+}
+
+footer small {
+	float: left;
+
+}
+
+footer ul {
+	float: right;
+	list-style: none;
+
+}
+
+footer ul li {
+	float: left;
+	margin-left: 15px;
+}
