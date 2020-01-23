@@ -1,24 +1,35 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Project: Alpha-Blog Rails web application.
 
-Things you may want to cover:
 
-* Ruby version
+BUILD BY : FALGUNI ISLAM (SOFTWARE DEVELOPER)
 
-* System dependencies
 
-* Configuration
 
-* Database creation
+```
+    VALIDTIONS FOR USER CLASS:
 
-* Database initialization
+   - Username must be present and unique;
+   - Email should be present and unique;
+   - Validate email format using regex;
 
-* How to run the test suite
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+Project Can be found here:
 
-* Deployment instructions
 
-* ...
+```
+   
+   Step: 1 : git clone <https copy and paste>
+   Step: 2 : rails s
+   Step: 3: bin/bundle
+   Step: 4: rails db:migrate
+   Step: 5: Open in browser (localhost:3000\)
+
+```
+
+
+
+
+
