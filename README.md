@@ -1,9 +1,9 @@
 # README
 
-Project: Alpha-Blog Rails web application.
+### Project: Alpha-Blog Rails web application.
 
 
-BUILD BY : FALGUNI ISLAM (SOFTWARE DEVELOPER)
+#### BUILD BY : FALGUNI ISLAM (SOFTWARE DEVELOPER)
 
 
 
