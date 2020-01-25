@@ -8,4 +8,32 @@
 <br/>
 <h4 align="center"><%= @user.username %>'s articles</h4>
 <br/>
-<%= render 'articles/article', obj: @user.articles %>
+
+
+		<nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center" >
+    <li class="page-item btn btn-outline-danger" style="width: 400px;">
+    	
+    	<%= will_paginate @user_articles, renderer: BootstrapPagination::Rails %>
+        </li>
+  </ul>
+</nav>
+
+
+<br/>
+<br/>
+<%= render 'articles/article', obj: @user_articles %>
+<br/>
+<br/>
+
+	<nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center" >
+    <li class="page-item btn btn-outline-danger" style="width: 400px;">
+    	
+    	<%= will_paginate @user_articles, renderer: BootstrapPagination::Rails %>
+        </li>
+  </ul>
+</nav>
+	<br/>
+	<br/>
+

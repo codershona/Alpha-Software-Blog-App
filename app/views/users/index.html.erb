@@ -1,6 +1,16 @@
 <h1 align="center">All Alpha Tech Writers & Bloggers</h1>
-
+</br>
 <div align="center">
+  <nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center" >
+    <li class="page-item btn btn-outline-danger" style="width: 400px;">
+      
+      <%= will_paginate @users, renderer: BootstrapPagination::Rails %>
+        </li>
+  </ul>
+</nav>
+</br>
+</br>
 <%= @users.each do |user| %>
    <ul class="listing">
    	<div class="row">
@@ -19,4 +29,13 @@
    </ul>
 
 <% end %>
+ <nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center" >
+    <li class="page-item btn btn-outline-danger" style="width: 400px;">
+      
+      <%= will_paginate @users, renderer: BootstrapPagination::Rails %>
+        </li>
+  </ul>
+</nav>
+
 </div>
