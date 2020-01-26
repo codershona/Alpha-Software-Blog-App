@@ -1,5 +1,5 @@
-<nav class="navbar navbar-expand-lg  navbar-light" style="background-color: #CC3333;" > <!-- style="background-color: #CC3333;"  -->
-  <!-- <a class="navbar-brand" id="logo" href="#">ALPHA BLOG</a> -->
+<nav class="navbar navbar-expand-lg  navbar-light" style="background-color: #CC3333;" > 
+  
   <%= link_to "Alpha blog", root_path, class: "navbar-brand", id: "logo"  %>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -7,11 +7,14 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-<!--       <li class="nav-item active">
-        <a class="nav-link" href="#">HOME<span class="sr-only">(current)</span></a>
-      </li> -->
+      
+
       <li>
         <%= link_to "OUR ARTICLES", articles_path, class: "nav-link"  %></li>
+        
+
+        
+
 
       <li>
         <%= link_to "LOG OUT", logout_path, class: "nav-link" , method: :delete %>
@@ -20,7 +23,7 @@
 
       </li>
       <li class="nav-item">
-      <!--   <a class="nav-link" href="#">ABOUT</a> -->
+     
       <%= link_to "ABOUT US", about_path, class: "nav-link"  %></li>
       </li>
       <li class="nav-item dropdown">
@@ -29,16 +32,16 @@
         </a>
 
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <!-- <a class="dropdown-item" href="#">Action</a> -->
+      
 
           <%= link_to "Create Articles", new_article_path, class: "dropdown-item"  %>
 
-         <!--  <a class="dropdown-item" href="#">Another action</a> -->
+        
          
          <%= link_to "Edit/Delete Articles",  articles_path, class: "dropdown-item"  %>
 
           <div class="dropdown-divider"></div>
-          <!-- <a class="dropdown-item" href="#">Something else here</a> -->
+         
            <%= link_to "SIGN-UP", signup_path, class: "dropdown-item"  %>
 
            <%= link_to "USERS ID", users_path, class: "dropdown-item"%> 
@@ -52,6 +55,43 @@
       <li class="nav-item">
         <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Coming Soon</a>
       </li>
+
+
+
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          YOUR PROFILE
+        </a>
+       
+
+     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+      <%= link_to "Edit your profile", users_path(current_user), class: "dropdown-item"  %>
+
+        <%= link_to "View your Profile", users_path(current_user), class: "dropdown-item"  %>
+
+          <div class="dropdown-divider"></div>
+         
+           <%= link_to "LOG IN PATH", login_path, class: "dropdown-item"  %>
+
+
+           <%= link_to "SIGN-UP",  signup_path,  class: "dropdown-item"%>
+
+
+        <%= link_to "LOG OUT", logout_path, class: "dropdown-item", method: :delete %>
+     
+
+        </div>
+
+
+
+
+  
+    
+
+     
+    
+
     </ul>
     <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
