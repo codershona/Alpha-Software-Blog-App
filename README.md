@@ -31,5 +31,11 @@ Project Can be found here:
 
 
 
+*  Run on terminal,
+
+    'rails test/ rake test'
+
+to test your test folder-model folder-cateory_test.rb file .
+
 
 
