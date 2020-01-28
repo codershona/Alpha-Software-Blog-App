@@ -31,14 +31,10 @@ test "should get show" do
  
 end
 
-
 test "should redirect create when admin not logged in" do
 
 	assert_no_difference 'Category.count' do
 		post categories_path, params: {category:{name: "sports"}}
 	end
-
-	
- 
 end
 end
