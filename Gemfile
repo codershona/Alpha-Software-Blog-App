@@ -21,7 +21,7 @@ gem 'bootstrap', '~> 4.4.1'
 
 gem 'jquery-rails'
 
-
+gem 'rails-controller-testing'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
