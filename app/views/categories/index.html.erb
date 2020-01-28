@@ -1,8 +1,15 @@
 <h1 align="center">Listing All Categories</h1>
 
 <div align="center">
-	
 
+	</br>
+ <li class="page-item btn btn-outline-danger" style="width: 400px;">
+    	
+    	<%= will_paginate @categories, renderer: BootstrapPagination::Rails %>
+        </li>
+</br>
+</br>
+</br>
 
 <% @categories.each do |category| %>
 <ul class="listing">
@@ -19,4 +26,12 @@
 	</div>
 	</ul>
 <% end %>
+</br>
+</br>
+
+  <li class="page-item btn btn-outline-danger" style="width: 400px;">
+    	
+    	<%= will_paginate @categories, renderer: BootstrapPagination::Rails %>
+        </li>
 </div>
+
