@@ -10,12 +10,28 @@ class CreateCategoriesTest < ActionDispatch::IntegrationTest
 
    follow_redirect!
 
-   post_via_redirect categories_path, category: {name: "sports"}
+  
 
 
 end
 
+
+ test "invalid category submission results in failure"  do
+
+  	get new_category_path
+ 
+   post categories_path, params:{category:{name: " "}}
+
 end
+
+
+
+
+end
+
+
+
+
 
  
   
