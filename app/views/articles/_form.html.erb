@@ -9,23 +9,28 @@
       <div class="control-label col-sm-2" >
         <%= f.label :title  %>
       </div>
-      <div class="control-label col-sm-10">
+      <div class="col-sm-8">
         <%= f.text_field :title, class: "form-control", placeholder: "Title of article", autofocus: true  %>
       </div>
     </div>
 
  <br/>
+ <br/>
+ <br/>
 
-    <div class="form-group">
+    <div class="form-group" style="height:80px;">
       <div class="control-label col-sm-2">
       <%= f.label :description %>
     </div>
-    <div class="control-label col-sm-10">
+    <div class="col-sm-8">
     	<%= f.text_area :description, row:10, class: "form-control", placeholder: "Body of article" %>
     </div>
   </div>
     
  <br/>
+ <br/>
+ <br/>
+
 
     <div class="form-group">
       <div class="col-sm-offset-2 col-sm-10">
@@ -35,6 +40,7 @@
   <% end %>
 
   <br/>
+
 
    <div class="col-xs-4 col-xs-offset-4">
      [ <%= link_to "Cancel request and returns to articles listing", articles_path %> ]
