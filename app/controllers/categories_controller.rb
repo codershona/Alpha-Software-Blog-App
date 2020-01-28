@@ -1,4 +1,5 @@
 class CategoriesController < ApplicationController
+	before_action :require_admin, except: [:index, :show]
 
 def index
 
@@ -48,9 +49,12 @@ def category_params
 
 end
 
-
-
-
-
+def require_admin
+  
+ 
+  end
 
 end
+
+
+
