@@ -152,6 +152,17 @@ textarea.form-control {
      background-color: lightgrey;
 }
 
+.badge {
+	background-color: #CEF6F5;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	font-weight: bold;
+}
+
+.input_checkbox input {
+	width: auto !important;
+}
+
 
 #create-content {
 	text-align: center;
@@ -166,3 +177,6 @@ textarea.form-control {
 	word-spacing: 20px;
 	letter-spacing: 5px;
 }
+
+
+
