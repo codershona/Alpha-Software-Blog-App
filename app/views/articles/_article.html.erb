@@ -17,8 +17,13 @@
 			</div>
 				</div>
 					<hr>
+					<% if article.categories.any? %>
 
-					
+		<p>Categories: <%= render article.categories %></p>
+
+		<% end %>
+
+			<hr>		
 
 				<div class="article-actions">
 		<%= link_to "Edit this alpha article", edit_article_path(article), class: "btn btn-xs btn-primary" %> 
