@@ -2,12 +2,24 @@
 
 </br>
 
+     <div class="row justify-content-center">
+         <span class="badge"> 
+        <%= link_to "Edit Category Name", edit_category_path(@category)  %>
+      
+        </span>
+      </div>
 
+</br>
+</br>
 <nav aria-label="Page navigation example">
   <ul class="pagination justify-content-center" >
     <li class="page-item btn btn-outline-danger" style="width: 400px;">
-    	
-    	<%= will_paginate @category_articles, renderer: BootstrapPagination::Rails %>
+
+
+
+     
+    	    <%= will_paginate @category_articles, renderer: BootstrapPagination::Rails %>
+    
         </li>
   </ul>
 </nav>
