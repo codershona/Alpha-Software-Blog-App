@@ -50,6 +50,25 @@
   <label class="form-check-label" for="inlineCheckbox3">3 (disabled)</label>
 </div>
 
+     <br/>
+ <br/>
+ <br/>
+
+     <br/>
+ 
+
+  <div class="form-group">
+    <div class="row">
+      <div class="col-sm-offset-2 col-sm-8">
+           <%= f.collection_check_boxes :category_ids, Category.all, :id, :name do |cb| %>
+
+      <% cb.label(class: "checkbox-inline input_checkbox") {cb.check_box(class: "checkbox") + cb.text} %>
+       <% end %>
+
+          </div>
+      </div>
+    </div>
+ 
 
  
 
