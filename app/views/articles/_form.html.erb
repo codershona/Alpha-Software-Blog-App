@@ -32,6 +32,33 @@
  <br/>
 
 
+ <div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+  <label class="form-check-label" for="inlineCheckbox1">1</label>
+    <%= f.collection_check_boxes :category_ids, Category.all, :id, :name do |cb| %>
+
+      <% cb.label(class: "checkbox-inline input_checkbox") {cb.check_box(class: "checkbox") + cb.text} %>
+
+          <% end %>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+  <label class="form-check-label" for="inlineCheckbox2">2</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" disabled>
+  <label class="form-check-label" for="inlineCheckbox3">3 (disabled)</label>
+</div>
+
+
+ 
+
+     <br/>
+ <br/>
+ <br/>
+
+
+
     <div class="form-group">
       <div class="col-sm-offset-2 col-sm-10">
           <%= f.submit class: 'btn btn-primary btn-lg' %>
