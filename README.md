@@ -39,4 +39,11 @@ Project Can be found here:
 to test your test folder-model folder-cateory_test.rb file .
 
 
+*  Rails console:
+
+   You will see SQL Database when you type rails console/rails cin terminal. To add Database of your project.
+   
+   
+
+
 
