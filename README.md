@@ -3,7 +3,7 @@
 ### Project: Alpha-Blog Rails web application.
 
 
-#### BUILD BY : FALGUNI ISLAM (SOFTWARE DEVELOPER)
+ **[Live version](https://blooming-lake-58576.herokuapp.com/)**
 
 ## PROJECT IS READY DEPLOY IT IN HEROKU.
 
