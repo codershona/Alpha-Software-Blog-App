@@ -5,6 +5,13 @@
 
  **[Live version](https://blooming-lake-58576.herokuapp.com/)**
 
+<p align="center">
+	
+<img src="https://user-images.githubusercontent.com/57604500/121777230-4bf55d80-cb91-11eb-9950-40799bb935da.png" width=656>
+<br />
+<h3 align="center">ALPHA BLOG APP</h3>
+</p>
+
 ## PROJECT IS READY DEPLOY IT IN HEROKU.
 
 
