@@ -7,7 +7,7 @@
 
 <p align="center">
 	
-<img src="https://user-images.githubusercontent.com/57604500/121777230-4bf55d80-cb91-11eb-9950-40799bb935da.png" width=656>
+<img src="https://user-images.githubusercontent.com/57604500/121777230-4bf55d80-cb91-11eb-9950-40799bb935da.png" width=956>
 <br />
 <h3 align="center">ALPHA BLOG APP</h3>
 </p>
