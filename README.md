@@ -2,7 +2,7 @@
 
 ### Project: Alpha-Blog Rails web application.
 
-
+#### Project Can be found here:
  **[Live version](https://blooming-lake-58576.herokuapp.com/)**
 
 <p align="center">
@@ -24,8 +24,6 @@
 
 ```
 
-Project Can be found here:
-
 
 ```
    
@@ -39,14 +37,14 @@ Project Can be found here:
 
 
 
-*  Run on terminal,
+ *  Run on terminal,
 
     'rails test/ rake test'
 
 to test your test folder-model folder-cateory_test.rb file .
 
 
-*  Rails console:
+ *  Rails console:
 
    You will see SQL Database when you type rails console/rails cin terminal. To add Database of your project.
    
