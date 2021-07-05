@@ -1,4 +1,4 @@
-# README
+# Blog Application
 
 ### Project: Alpha-Blog Rails web application.
 
